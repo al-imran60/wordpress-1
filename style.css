@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(img1/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    animation: sky 5s linear infinite;
+    
+}
+
+@keyframes sky{
+    100%{
+        transform: translateX(-12px);
+    }
+}
+
+
+.highway{
+    background: url(img1/highway.jpg);
+    height: 400px;
+    width: 500%;
+    bottom: 0px;
+    position: absolute;
+    animation: highway 5s linear infinite;
+}
+
+@keyframes highway{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+.city{
+    background: url(img1/city1.png);
+    width: 550%;
+    height: 800px;
+    position: absolute;
+    bottom: 48px;
+    animation: city 13s linear infinite;
+}
+
+@keyframes city{
+    100%{
+        transform: translateX(-1800px);
+    }
+}
+
+img{
+    position: absolute;
+    height: 50%;
+    left: 40%;
+    bottom: 60px;
+    transform: translateX(-50%);
+     z-index: 1;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
